@@ -1,11 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <title>My Portfolio</title>
 </head>
-<body>
-  <h1>Welcome to my site</h1>
+
+<!-- We set the body here with an id so that the css could hook it/use it to display something-->
+
+<body id="bg-img">
+    <header>
+        <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+        </div>
+
+        <nav class="menu">
+            <div class="menu-branding">
+                <div class="portrait"></div>
+            </div>
+            <ul class="menu-nav">
+                <li class="nav-item current">
+                    <a href="index.html" class="nav-link" 0>
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link" 0>
+                        About
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="work.html" class="nav-link" 0>
+                        My Work
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link" 0>
+                        How to Reach Me
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--The main is everything that is not in the header. The h1, h2, the icons-->
+    <main id="home">
+        <h1 class="lg-heading">
+            Anthony
+            <span class="text-secondary">Patton</span>
+        </h1>
+        <h2 class="sm-heading">
+            Web Developer, Progammer, & Designer
+        </h2>
+        <div class="icons">
+            <a href="https://www.instagram.com/emeraldcitywebdev/">
+                <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a href="https://www.facebook.com/Emeraldcitywebdev-413631262397252/">
+                <i class="fab fa-facebook fa-2x"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/anthony-patton-b4b954138/">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a href="profile.html">
+                <i class="fab fa-github fa-2x"></i>
+            </a>
+        </div>
+    </main>
+    <script src="js/main.js"></script>
 </body>
+
 </html>

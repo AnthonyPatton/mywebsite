@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
-    <title>About me</title>
+    <link rel="stylesheet" href="css/profile.css">
+    <title>View my work</title>
 </head>
 
 <!-- We set the body here with an id so that the css could hook it/use it to display something-->
@@ -31,12 +32,12 @@
                         Home
                     </a>
                 </li>
-                <li class="nav-item current">
+                <li class="nav-item">
                     <a href="about.html" class="nav-link" 0>
                         About
                     </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item current">
                     <a href="work.html" class="nav-link" 0>
                         My Work
                     </a>
@@ -50,47 +51,62 @@
         </nav>
     </header>
     <!--The main is everything that is not in the header. The h1, h2, the icons-->
-    <main id="about">
+    <main id="work">
         <h1 class="lg-heading">
-            About
-            <span class="text-secondary">Me</span>
+            My
+            <span class="text-secondary">Work</span>
         </h1>
         <h2 class="sm-heading">
-            Let me tell you a few things
+            Check out some of my projects
         </h2>
         <!-- This is the class that going to have the grid items. Everything in here is going to 
          be a grid -->
-        <div class="about-info">
-            <img src="img/myPicBig.jpg" alt="John Doe" class="bio-image">
-
-            <div class="bio">
-                <h3 class="text-secondary">BIO</h3>
-                <p>I became interested in web development the same way an artist views art. As a programmer, you get to design
-                    and implement a piece of you the same way an artist brings a concoction to life. When I was a kid, I
-                    always thought I wanted to be an inventor of some sort and after I had started programming, I then realized
-                    that I could and would be inventing software all the time. </p>
+        <div class="projects">
+            <div class="item">
+                <a href="profile.html">
+                    <img src="img/projects/project1.jpg" alt="Project">
+                </a>
+                <a href="profile.html" class="btn-light">
+                    <i class="fas fa-eye"></i> Project
+                </a>
+                <a href="profile.html" class="btn-dark">
+                    <i class="fab fa-github"></i> Github
+                </a>
             </div>
-            <div class="job job-1">
-                <h3>Emerald City Web Dev</h3>
-                <h6>Full Stack Developer</h6>
-                <p>Started out creating apps and websites for friends and family until it led me to start my own freelance business
-                    while keeping sharp and harnessing my skills.
-                </p>
+            <div class="item">
+                <a href="profile.html">
+                    <img src="img/projects/project2.jpg" alt="Project">
+                </a>
+                <a href="profile.html" class="btn-light">
+                    <i class="fas fa-eye"></i> Project
+                </a>
+                <a href="profile.html" class="btn-dark">
+                    <i class="fab fa-github"></i> Github
+                </a>
             </div>
-            <div class="job job-2">
-                <h3>PluralStack</h3>
-                <h6>Web Developer</h6>
-                <p>Built apps written in Java and worked with some of the latest frameworks such as Angular, Bootstrap, React,
-                    and Android Mobile Development.
-                </p>
+            <div class="item">
+                <a href="profile.html">
+                    <img src="img/projects/project3.jpg" alt="Project">
+                </a>
+                <a href="profile.html" class="btn-light">
+                    <i class="fas fa-eye"></i> Project
+                </a>
+                <a href="profile.html" class="btn-dark">
+                    <i class="fab fa-github"></i> Github
+                </a>
             </div>
-            <div class="job job-3">
-                <h3>Kaiser Permanente</h3>
-                <h6>Application Support Engineer</h6>
-                <p>Oversaw the development and rebranding of applications from GroupHealth to the now Kaiser Permanente. Debugged,
-                    tested, and troublehshooted all applications from internal to external and member facing.
-                </p>
+            <div class="item">
+                <a href="profile.html">
+                    <img src="img/projects/project4.jpg" alt="Project">
+                </a>
+                <a href="profile.html" class="btn-light">
+                    <i class="fas fa-eye"></i> Project
+                </a>
+                <a href="profile.html" class="btn-dark">
+                    <i class="fab fa-github"></i> Github
+                </a>
             </div>
+            
         </div>
     </main>
 
